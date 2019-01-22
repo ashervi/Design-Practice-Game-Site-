@@ -5,7 +5,7 @@ body{
 }
 
 .title-background{
-  background-image: linear-gradient(#5bd7d7,#196767);
+  background-color: #c2c2a3;
   position:relative;
   display:block;
   margin:0;
@@ -20,7 +20,7 @@ body{
   font-size: 45px;
   text-align:center;
   font-family:Courier;
-  border-radius:10%;
+
 
   background-color: #FFFFFF;
   font-weight:bold;
@@ -33,11 +33,12 @@ body{
 .nav{
   list-style-type: none;
   font-size:20px;
+
   font-family:'Josefin Sans', sans-serif;
   display:inline;
   float:right;
   margin-right:50px;
-  margin-top:-2px;
+  margin-top:-15px;
 }
 
 li{
@@ -49,6 +50,13 @@ li{
 a{
   text-decoration:none;
   color:#000000;
+}
+
+.screener{
+  width: 100%;
+  height:600px;
+  background-image: url(https://wallpapercave.com/wp/K0As58A.jpg);
+  background-size:auto;
 }
 
 .footer{
